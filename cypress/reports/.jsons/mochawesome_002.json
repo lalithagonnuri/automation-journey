@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 2,
+    "failures": -1,
+    "start": "2025-12-11T09:26:20.098Z",
+    "end": "2025-12-11T09:26:20.306Z",
+    "duration": 208,
+    "testsRegistered": 2,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1d3b87e7-da3b-4330-b92a-e39c9c191fb3",
+      "title": "",
+      "fullFile": "cypress\\e2e\\claim.feature",
+      "file": "cypress\\e2e\\claim.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "410c09b5-8321-44ad-927b-ac28a01e926d",
+          "title": "OrangeHRM Claim Management",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Employee creates a claim request",
+              "fullTitle": "OrangeHRM Claim Management Employee creates a claim request",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "3e37d5fb-e785-4713-b75d-f256339bdaae",
+              "parentUUID": "410c09b5-8321-44ad-927b-ac28a01e926d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Employee adds expense and submits claim",
+              "fullTitle": "OrangeHRM Claim Management Employee adds expense and submits claim",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "6768aaff-a458-403d-9f07-d824bd265068",
+              "parentUUID": "410c09b5-8321-44ad-927b-ac28a01e926d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "3e37d5fb-e785-4713-b75d-f256339bdaae",
+            "6768aaff-a458-403d-9f07-d824bd265068"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress\\reports\\.jsons",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.3.2"
+    }
+  }
+}
